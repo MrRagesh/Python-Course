@@ -1,0 +1,15 @@
+f"content"
+-> f is a Print formating
+
+Module #2
+
+Python
+1. python installation & environment setup
+2. explore IDEs: VS Code, jupyter, colab
+3. jupyter notebook basics
+4. python basic: syntax, variables, string, input/output
+5. loop, function, conditional statements
+
+bonus
+predefined functions, user-defined functions, operators
+exceptional handling

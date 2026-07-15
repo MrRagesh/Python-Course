@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="049928ec-6676-4429-b185-12a33eb520e6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000012182881" />
+      <entry key="S5" value="1.0002731779203993" />
+      <entry key="S10" value="1.0176581747943063" />
+      <entry key="S30" value="1.511188669985935" />
+      <entry key="S60" value="3.7255344295400588" />
+      <entry key="M2" value="9.760209599327421" />
+      <entry key="M5" value="27.031304565691787" />
+      <entry key="M10" value="49.73639889505477" />
+      <entry key="M15" value="65.44349435125282" />
+      <entry key="M30" value="90.86675997743114" />
+      <entry key="H1" value="109.72821782561496" />
+      <entry key="H2" value="121.41417353885267" />
+      <entry key="H4" value="127.94764740061296" />
+      <entry key="D1" value="133.7865272129253" />
+      <entry key="W1" value="134.82568611509842" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.73888478135522E-109" />
+      <entry key="S2" value="6.457548871381046E-28" />
+      <entry key="S5" value="1.3305373817375879E-11" />
+      <entry key="S10" value="3.647653193133344E-6" />
+      <entry key="S30" value="0.015393593703365077" />
+      <entry key="S60" value="0.12434813245914232" />
+      <entry key="M2" value="0.36889990147450963" />
+      <entry key="M5" value="0.8718080311593753" />
+      <entry key="M10" value="1.5574345132044105" />
+      <entry key="M15" value="2.223740585683589" />
+      <entry key="M30" value="3.6612173923658244" />
+      <entry key="H1" value="4.974417100984916" />
+      <entry key="H2" value="5.876662125800774" />
+      <entry key="H4" value="6.407429573936365" />
+      <entry key="D1" value="6.8966372556361355" />
+      <entry key="W1" value="6.9851169490631815" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.5806104505893057E-4" />
+      <entry key="MS500" value="0.1915774950259729" />
+      <entry key="S2" value="0.6615857207152649" />
+      <entry key="S5" value="0.8479114334805646" />
+      <entry key="S10" value="0.9368647324786729" />
+      <entry key="S30" value="1.4901277816900096" />
+      <entry key="S60" value="3.8232018998070907" />
+      <entry key="M2" value="10.106293757040891" />
+      <entry key="M5" value="27.879421891538612" />
+      <entry key="M10" value="51.27265088314358" />
+      <entry key="M15" value="67.64895542664492" />
+      <entry key="M30" value="94.51542497830339" />
+      <entry key="H1" value="114.69505200591193" />
+      <entry key="H2" value="127.28662959270898" />
+      <entry key="H4" value="134.3528564100206" />
+      <entry key="D1" value="140.68277670743515" />
+      <entry key="W1" value="141.81074721828662" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GBBcpvUcKdvWcvrOkAPyYp1Ukg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Level 4.executor": "Run",
+    "Python.Level 5.2.executor": "Run",
+    "Python.Level 5.executor": "Run",
+    "Python.Python.executor": "Run",
+    "Python.python course.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/ragesh/Documents/Entire Projects/Jupyter Notebook/demo_01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="demo_01" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="049928ec-6676-4429-b185-12a33eb520e6" name="Changes" comment="" />
+      <created>1783435163533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783435163533</updated>
+      <workItem from="1783435164749" duration="110000" />
+      <workItem from="1783435283686" duration="12000" />
+      <workItem from="1783438557254" duration="1822000" />
+      <workItem from="1783440494967" duration="1317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo_01$Python.coverage" NAME="Python Coverage Results" MODIFIED="1783435211914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Number_Guessing_Game$Level_5.coverage" NAME="Level 5 Coverage Results" MODIFIED="1783441161281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/demo_01$python_course.coverage" NAME="python course Coverage Results" MODIFIED="1783439285886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Number_Guessing_Game$Level_4.coverage" NAME="Level 4 Coverage Results" MODIFIED="1783440598746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Number_Guessing_Game$Level_5_2.coverage" NAME="Level 5.2 Coverage Results" MODIFIED="1783441689731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -1,0 +1,24 @@
+Python Libraries Introduction
+
+1. python libraries exploration: pandas , numpy, seaborn, plotly
+    1.1 what are libraries in python?
+        A libraries in python is a collection of pre-written code (modules, functions and classes)
+        that you can use to perform common tasks without everything from scratch.
+
+    1.2 why use libraries?
+        * saves time - no need to write code for common tasks.
+        * proven solutions - tested and optimized by experts
+        * easy to use - just import and use the functions
+
+        types of libraries
+        __________________
+        LIBRARY NAME                    USECASES
+
+        1.pandas                        data analysis
+        2.numpy                         math/science
+        3.matplotlib,                   data visualization
+          seaborn
+        4.scikit-learn                  machine learning algorithms
+        5.tensorflow, keras,            deep learning
+          pytorch
+        6.flask, django                 web development
