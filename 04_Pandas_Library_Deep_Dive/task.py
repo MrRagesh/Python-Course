@@ -3,6 +3,7 @@ Task
 
 1. find out the top 5 selling items individual revenue it made.
 2. total revenue of the top 5 items sold
+3. find atleast 2 more questions on the same dataset
 """
 
 import pandas as pd
@@ -26,3 +27,9 @@ print("")
 print("Total revenue of the top 5 selling items :")
 total_revenue = top_selling.sum()
 print(total_revenue)
+print("")
+
+for label, content in order_detailes.items():
+    print(label)
+    print(content)
+
