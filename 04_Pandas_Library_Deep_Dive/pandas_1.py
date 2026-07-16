@@ -10,6 +10,7 @@ import pandas as pd
 
 order_detailes= pd.read_csv(filepath_or_buffer='data.tsv.txt', sep='\t')
 print(order_detailes)
+print("")
 
 # 1.1 Perform Initial Analysis
 #Function - ()
@@ -24,6 +25,15 @@ print(shape_data)
 
 null_entery = order_detailes.isnull().sum() # Chain of functions, chain of commands
 print(null_entery)
+print("")
+
+data_types = order_detailes.dtypes
+print(data_types)
+print("")
+
+statistic = order_detailes.describe(include="all")
+print(statistic)
+print("")
 
 """demo = pd.read_table(filepath_or_buffer="/Users/ragesh/Documents/Entire Projects/Python Course/02_Python_Libraries_introduction/insurance.csv", sep=",")
 print(demo)
