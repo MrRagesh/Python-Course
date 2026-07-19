@@ -9,12 +9,49 @@ we can use the excel sheets mainly to install the
 
 import pandas as pd
 import openpyxl
-from numpy.ma.core import empty_like
+
+emp_detailes = pd.read_excel(io="employee_data.xlsx", sheet_name="more_employee")
+print(emp_detailes)
+print("")
+
+# step 1 : Drop Duplicates
+duplicate_data = emp_detailes.duplicated()
+print(duplicate_data)
+print("")
+
+# step 2 : deleted duplicated entries
+emp_detailes.drop_duplicates(inplace=True)
+print(emp_detailes)
+print("")
+
+# step 2 : identify null entries
+null_value = emp_detailes.isnull().sum()
+print(null_value)
+print("")
+
+# step 3 : go for best imputation
+print(emp_detailes["Department"].unique()) # display the unique values
+print("")
+
+print(emp_detailes["Department"])
+print("")
+
+print("Support Department : ")
+print(emp_detailes[emp_detailes["Department"] == "Support"])
+print("")
+
+print("IT Tech Department : ")
+print(emp_detailes[emp_detailes["Department"] == "IT Tech"])
+print("")
+
+print("Ops Department : ")
+print(emp_detailes[emp_detailes["Department"] == "Ops"])
+print("")
 
 """"
 pd.read_csv() -> you can import multiple sheets if it's in the csv file
 """
-emp_detailes = pd.read_excel(io="employee_data.xlsx", sheet_name="more_employee")
+"""emp_detailes = pd.read_excel(io="employee_data.xlsx", sheet_name="more_employee")
 print(emp_detailes)
 print("")
 
@@ -46,6 +83,6 @@ emp_detailes.dropna(inplace=True)
 print(emp_detailes)
 print(emp_detailes.shape)
 print(emp_detailes.describe())
-
+"""
 
 
