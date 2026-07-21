@@ -9,9 +9,5 @@ emp_data = pd.read_csv(filepath_or_buffer="employee_data.csv")
 print(emp_data)
 print("")
 
-emp_data.fillna({"Salary" :  }, inplace=True)
+emp_data["Salary"] = emp_data["Salary"].fillna(value = emp_data["Salary"].mean())
 print(emp_data)
-
-"""emp_data["Salary"] = emp_data["Salary"].fillna(value = emp_data["Salary"].mean())
-print(emp_data)
-"""
