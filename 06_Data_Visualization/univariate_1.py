@@ -48,14 +48,18 @@ plt.xlabel("MPG")
 plt.ylabel("Frequency")
 plt.show()
 
+# Insights :
+# {Your Task} upload the data and graph to the ChatGPT to get the INSIGHTS:
+
+
 """
 2 types of datatypes
 
 MUST KNOW :-
 - what type data to use what type of chart we can use to study it.
 
-1. discrete data - countable / can't be measured
-2. continuous data - it has some units / it can be measured
+1. discrete data - countable / can't be measured / can't be segregated
+2. continuous data - it has some units / it can be measured / can be segregated (
 
 - using histogram to use only one column data's can apply . don't give the 
 wrong data  
