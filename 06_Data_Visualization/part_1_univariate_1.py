@@ -3,6 +3,7 @@
 
 import pandas as pd
 from pandas.core.methods import describe
+from matplotlib import pyplot as plt
 
 # step 2 : import dataset
 """
@@ -40,7 +41,7 @@ print("Describe : \n",_describe, "\n")
 # 3.2 Perform data visualization for better understanding
 # or import matplotlib.pyplot as plt
 
-from matplotlib import pyplot as plt
+
 
 plt.hist(mtcars_data["mpg"]) # speaks about the distribution of one continuous data
 plt.title("MPG Distribution")
