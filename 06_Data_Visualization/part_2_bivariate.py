@@ -11,6 +11,8 @@ print(mtcars_data.head(), "\n")
 plt.bar(mtcars_data["hp"], height=mtcars_data["wt"])
 plt.show()
 
+# ============================================
+
 import seaborn as sns
 
 sns.barplot(data=mtcars_data, x="cyl", y="mpg") # importent! X - discrete and Y - continous thats why i using the seaborn - barplot
