@@ -19,7 +19,3 @@ def subtraction(a,b):
 
 def multiplication(x,y):
     return x*y
-
-print(addition(3,4))
-print(subtraction(3,4))
-print(multiplication(3,4))
