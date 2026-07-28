@@ -47,3 +47,19 @@ print(login(nasir))
 print(view_task(nasir))
 print(assign_task(nasir)) # works
 print(submit_task(nasir)) # error message
+
+"""
+drawbacks without OOPS
+
+no reusability of logic : you can't bundle shared behavior. you repeat logic checks ( if role == ...) again and again
+-------------------------
+hard to extend : adding a new role (like admin) means changing all your functions to include new if conditions.
+----------------
+no structure : no way to logically group related functionality. task for team members and managers are spread across multiple functions.
+--------------
+no data binding : data (name, role..) is not attached to behavior. you have to keep passing the user dict again and again.
+-----------------
+no inheritance : you can't inherit shared behavior. even common methods like login() get repeated logic.
+----------------
+
+"""
