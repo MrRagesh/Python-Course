@@ -31,4 +31,19 @@ def assign_task(user):
     else:
         return "Only managers can assign tasks."
 
-    #
+# sample user
+john = {'name': 'John', 'role': 'team_member'}
+nasir = {'name': 'Nasir', 'role': 'manager'}
+
+# function calls
+print(login(john))
+print(view_task(john))
+print(submit_task(john)) # works
+print(assign_task(john)) # error message
+print("==================")
+print("==================")
+
+print(login(nasir))
+print(view_task(nasir))
+print(assign_task(nasir)) # works
+print(submit_task(nasir)) # error message
