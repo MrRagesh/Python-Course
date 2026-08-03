@@ -63,3 +63,37 @@ no inheritance : you can't inherit shared behavior. even common methods like log
 ----------------
 
 """
+
+# with OOPS:
+
+class employee:
+    def __init__(self,name):
+        self.name = name
+
+    def login(self):
+        return f"{self.name} has logged in."
+
+    def view_task(self):
+        return f"{self.name} can view assigned tasks."
+
+class team_member(employee):
+    def submit_task(self):
+        return f"{self.name} has submitted the task."
+
+class manager(employee):
+    def submite_task(self):
+        return f"{self.name} has assigned a new task."
+
+
+john = team_member("John")
+alice = manager("Nasir")
+
+print(john.login())
+print(john.submit_task())
+
+print(alice.login())
+print(alice.view_task())
+
+"""
+benefits - with OOPS , the code is clean, scalable, structured.
+"""
