@@ -94,6 +94,35 @@ print(john.submit_task())
 print(alice.login())
 print(alice.view_task())
 
+# benefits - with OOPS , the code is clean, scalable, structured.
+
+
+
 """
-benefits - with OOPS , the code is clean, scalable, structured.
+real-world analogy 2:
+I want to hide sensitive data so others can't directly access or change it.
 """
+
+#no way to hide data here
+user_data = {"password": "1234"}
+
+def get_password():
+    return user_data["password"]
+
+print("")
+print(get_password())
+
+# limitation: X with function (no protection)
+
+class secure_password():
+    def __init__(self, password):
+        self.__password = password
+
+    def check_password(self, attempt):
+        return self.__password == attempt
+
+user = secure_password('1234')
+print(user.check_password("1234"))
+print(user.__password)
+
+# OOPS solution (encapsulation/privacy)
